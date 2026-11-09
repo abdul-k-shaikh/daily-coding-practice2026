@@ -1,0 +1,14 @@
+# Eclipse
+.settings/
+
+# Java
+bin/
+target/
+*.class
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
