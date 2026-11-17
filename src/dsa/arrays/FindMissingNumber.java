@@ -1,11 +1,9 @@
-package moduleP;
-
+package dsa.arrays;
 
 /**
- * Amazon IQ
- * DSA 1. Find missing number
+ * Amazon IQ DSA 1. Find missing number
  */
-public class Test1 {
+public class FindMissingNumber {
 
 	public static void main(String[] args) {
 		int nums[] = { 1, 2, 4, 5, 6, 0 };
