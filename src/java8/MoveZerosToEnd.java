@@ -12,7 +12,7 @@ public class MoveZerosToEnd {
 		System.out.println("moved zeros at the end :" + Arrays.toString(array));
 		
 		//Or
-		
+		int[] array2 = IntStream.concat(Arrays.stream(a).filter(n->n!=0),Arrays.stream(a).filter(n->n==0)).toArray();
+		System.out.println("moved zeros to end"+Arrays.toString(array2));
 	}
-
 }
